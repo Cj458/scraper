@@ -1,0 +1,27 @@
+import scrapy
+
+
+class PermitScraperItem(scrapy.Item):
+    permit_number = scrapy.Field()
+    worktype = scrapy.Field()
+    status = scrapy.Field()
+    occupancytype = scrapy.Field()
+    declared_valuation = scrapy.Field()
+    total_fees = scrapy.Field()
+    issue_date = scrapy.Field()
+    expiration_date = scrapy.Field()
+    permit_type_description = scrapy.Field()
+    description = scrapy.Field()
+    comments = scrapy.Field()
+    applicant = scrapy.Field()
+    sq_feet = scrapy.Field()
+    address = scrapy.Field()
+    city = scrapy.Field()
+    state = scrapy.Field()
+    zip = scrapy.Field()
+    property_id = scrapy.Field()
+    parcel_id = scrapy.Field()
+    gps_y = scrapy.Field()
+    gps_x = scrapy.Field()
+    latitude = scrapy.Field()
+    longitude = scrapy.Field()
